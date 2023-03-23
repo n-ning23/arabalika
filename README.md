@@ -146,7 +146,23 @@ er:int (opt), the number of rolls of Energy Recharge in the artifact subs
 **@Outputs**  
 Bot will update character stats.  
 Bot will send message.  
-
+  
+```/character percent```  
+**@Inputs**  
+name:string, the user-declared name for a character  
+hp:int (opt), custom % amount of HP  
+atk:int (opt), custom % amount of ATK  
+def:int (opt), custom % amount of DEF  
+em:int (opt), custom % amount of EM  
+crate:float (opt), custom % amount of Critical Rate  
+cdmg:float (opt), custom % amount of Critical Damage  
+er:float (opt), custom % amount of Energy Recharge  
+heal:float (opt), custom % amount of Healing Bonus  
+ele:float (opt), custom % amount of relevant Elemental Damage%  
+**@Outputs**  
+Bot will update character stats.  
+Bot will send message.  
+  
 ```/character flat```  
 **@Inputs**
 name:string, the user-declared name for a character  
