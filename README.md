@@ -115,8 +115,8 @@ hp:int (opt), the base HP of the character
 atk:int (opt), the base ATK of the character (with weapon)  
 def:int (opt), the base DEF of the character  
 em:int (opt), the base Elemental Mastery of the character  
-crate:float (opt), the base Critical Rate of the character and weapon; express 24.2% as ```24.2```  
-cdmg:float (opt), the base Critical Damage of the character and weapon; express 88.4% as ```88.4```  
+crate:float (opt), the base Critical Rate of the character; express 24.2% as ```24.2```  
+cdmg:float (opt), the base Critical Damage of the character; express 88.4% as ```88.4```  
 er:float (opt), the base Energy Recharge of the character; express 100% as ```100```  
 heal:float (opt), the base Healing Bonus of the character; express 0% as ```0```  
 ele:float (opt), the base relevant Elemental Damage% of the character; express 0% as ```0```  
